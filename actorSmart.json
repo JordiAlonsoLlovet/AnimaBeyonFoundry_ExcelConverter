@@ -1,0 +1,1015 @@
+{
+  "version": 1,
+  "ui": {
+    "contractibleItems": {},
+    "tabVisibility": {
+      "mystic": {
+        "value": true
+      },
+      "domine": {
+        "value": true
+      },
+      "psychic": {
+        "value": true
+      }
+    }
+  },
+  "general": {
+    "modifiers": {
+      "physicalActions": {
+        "value": 0
+      },
+      "allActions": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "naturalPenalty": {
+        "byArmors": { "value": 0 },
+        "byWearArmorRequirement": { "value": 0 }
+      }
+    },
+    "destinyPoints": {
+      "base": {
+        "value": 0
+      },
+      "final": {
+        "value": 0
+      }
+    },
+    "presence": {
+      "value": 0
+    },
+    "aspect": {
+      "hair": {
+        "value": ""
+      },
+      "eyes": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "age": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "race": {
+        "value": ""
+      },
+      "appearance": {
+        "value": ""
+      },
+      "size": {
+        "value": 0
+      }
+    },
+    "advantages": [],
+    "contacts": [],
+    "inventory": [],
+    "money": {
+      "cooper": {
+        "value": 0
+      },
+      "silver": {
+        "value": 0
+      },
+      "gold": {
+        "value": 0
+      }
+    },
+    "description": {
+      "value": ""
+    },
+    "disadvantages": [],
+    "elan": [],
+    "experience": {
+      "current": { "value": 0 },
+      "next": { "value": 0 }
+    },
+    "languages": {
+      "base": {
+        "value": ""
+      },
+      "others": []
+    },
+    "levels": [],
+    "notes": [],
+    "titles": []
+  },
+
+  "characteristics": {
+    "primaries": {
+      "agility": {
+        "value": "AGI",
+        "mod": 0
+      },
+      "constitution": {
+        "value": "CON",
+        "mod": 0
+      },
+      "dexterity": {
+        "value": "DES",
+        "mod": 0
+      },
+      "strength": {
+        "value": "FUE",
+        "mod": 0
+      },
+      "intelligence": {
+        "value": "INT",
+        "mod": 0
+      },
+      "perception": {
+        "value": "PER",
+        "mod": 0
+      },
+      "power": {
+        "value": "POD",
+        "mod": 0
+      },
+      "willPower": {
+        "value": "VOL",
+        "mod": 0
+      }
+    },
+    "secondaries": {
+      "lifePoints": {
+        "value": 0,
+        "max": 0
+      },
+      "initiative": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "fatigue": {
+        "value": 0,
+        "max": 0
+      },
+      "movementType": {
+        "mod": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "movement": {
+        "maximum": {
+          "value": 0
+        },
+        "running": {
+          "value": 0
+        }
+      },
+      "resistances": {
+        "physical": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "disease": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "poison": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "magic": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "psychic": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      }
+    }
+  },
+
+  "secondaries": {
+    "athletics": {
+      "acrobatics": {
+        "base": {
+          "value": "Acrobacias_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "athleticism": {
+        "base": {
+          "value": "Atletismo_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "ride": {
+        "base": {
+          "value": "Montar_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "swim": {
+        "base": {
+          "value": "Nadar_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "climb": {
+        "base": {
+          "value": "Trepar_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "jump": {
+        "base": {
+          "value": "Saltar_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "piloting": {
+        "base": {
+          "value": "Pilotar_final"
+        },
+        "final": {
+          "value": 0
+        }
+      }
+    },
+    "vigor": {
+      "composure": {
+        "base": {
+          "value": "Frialdad_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "featsOfStrength": {
+        "base": {
+          "value": "P.Fuerza_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "withstandPain": {
+        "base": {
+          "value": "Res.Dolor_final"
+        },
+        "final": {
+          "value": 0
+        }
+      }
+    },
+    "perception": {
+      "notice": {
+        "base": {
+          "value": "Advertir_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "search": {
+        "base": {
+          "value": "Buscar_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "track": {
+        "base": {
+          "value": "Rastrear_final"
+        },
+        "final": {
+          "value": 0
+        }
+      }
+    },
+    "intellectual": {
+      "animals": {
+        "base": {
+          "value": "Animales_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "science": {
+        "base": {
+          "value": "Ciencia_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "law": {
+        "base": {
+          "value": "Ley_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "herbalLore": {
+        "base": {
+          "value": "Herbolaria_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "history": {
+        "base": {
+          "value": "Historia_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "tactics": {
+        "base": {
+          "value": "Tactica_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "medicine": {
+        "base": {
+          "value": "Medicina_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "memorize": {
+        "base": {
+          "value": "Memorizar_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "navigation": {
+        "base": {
+          "value": "Navegación_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "occult": {
+        "base": {
+          "value": "Ocultismo_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "appraisal": {
+        "base": {
+          "value": "Tasación_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "magicAppraisal": {
+        "base": {
+          "value": "V.Mágica_final"
+        },
+        "final": {
+          "value": 0
+        }
+      }
+    },
+    "social": {
+      "style": {
+        "base": {
+          "value": "Estilo_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "intimidate": {
+        "base": {
+          "value": "Intimidar_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "leadership": {
+        "base": {
+          "value": "Liderazgo_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "persuasion": {
+        "base": {
+          "value": "Persuasión_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "trading": {
+        "base": {
+          "value": "Comercio_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "streetwise": {
+        "base": {
+          "value": "Callejeo_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "etiquette": {
+        "base": {
+          "value": "Etiqueta_final"
+        },
+        "final": {
+          "value": 0
+        }
+      }
+    },
+    "subterfuge": {
+      "lockPicking": {
+        "base": {
+          "value": "Cerrajería_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "disguise": {
+        "base": {
+          "value": "Disfraz_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "hide": {
+        "base": {
+          "value": "Ocultarse_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "theft": {
+        "base": {
+          "value": "Robo_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "stealth": {
+        "base": {
+          "value": "Sigilo_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "trapLore": {
+        "base": {
+          "value": "Trampería_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "poisons": {
+        "base": {
+          "value": "Venenos_final"
+        },
+        "final": {
+          "value": 0
+        }
+      }
+    },
+    "creative": {
+      "art": {
+        "base": {
+          "value": "Arte_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "dance": {
+        "base": {
+          "value": "Baile_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "forging": {
+        "base": {
+          "value": "Forja_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "runes": {
+        "base": {
+          "value": "Runas_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "alchemy": {
+        "base": {
+          "value": "Alquimia_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "animism": {
+        "base": {
+          "value": "Animismo_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "music": {
+        "base": {
+          "value": "Música_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "sleightOfHand": {
+        "base": {
+          "value": "T.Manos_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "ritualCalligraphy": {
+        "base": {
+          "value": "Caligrafíaritual_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "jewelry": {
+        "base": {
+          "value": "Orfebrería_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "tailoring": {
+        "base": {
+          "value": "Confección_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "puppetMaking": {
+        "base": {
+          "value": "Conf.marionetas_final"
+        },
+        "final": {
+          "value": 0
+        }
+      }
+    },
+    "secondarySpecialSkills": []
+  },
+
+  "combat": {
+    "attack": {
+      "base": {
+        "value": 0
+      },
+      "final": {
+        "value": 0
+      }
+    },
+    "block": {
+      "base": {
+        "value": 0
+      },
+      "final": {
+        "value": 0
+      }
+    },
+    "dodge": {
+      "base": {
+        "value": 0
+      },
+      "final": {
+        "value": 0
+      }
+    },
+    "wearArmor": {
+      "value": 0
+    },
+    "totalArmor": {
+      "at": {
+        "cut": {
+          "value": 0
+        },
+        "impact": {
+          "value": 0
+        },
+        "thrust": {
+          "value": 0
+        },
+        "heat": {
+          "value": 0
+        },
+        "electricity": {
+          "value": 0
+        },
+        "cold": {
+          "value": 0
+        },
+        "energy": {
+          "value": 0
+        }
+      }
+    },
+    "combatSpecialSkills": [],
+    "combatTables": [],
+    "ammo": [],
+    "weapons": [],
+    "armors": []
+  },
+
+  "mystic": {
+    "act": {
+      "main": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "alternative": {
+        "base": {
+          "value": 0
+        },
+        "final": {
+          "value": 0
+        }
+      }
+    },
+    "zeon": {
+      "accumulated": 0,
+      "value": 0,
+      "max": 0
+    },
+    "zeonRegeneration": {
+      "base": {
+        "value": 0
+      },
+      "final": {
+        "value": 0
+      }
+    },
+    "innateMagic": {
+      "main": {
+        "value": 0
+      },
+      "alternative": {
+        "value": 0
+      }
+    },
+    "magicProjection": {
+      "base": {
+        "value": 0
+      },
+      "final": {
+        "value": 0
+      },
+      "imbalance": {
+        "offensive": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        },
+        "defensive": {
+          "base": {
+            "value": 0
+          },
+          "final": {
+            "value": 0
+          }
+        }
+      }
+    },
+    "magicLevel": {
+      "spheres": {
+        "essence": {
+          "value": "Esencia"
+        },
+        "water": {
+          "value": "Agua"
+        },
+        "earth": {
+          "value": "Tierra"
+        },
+        "creation": {
+          "value": "Creación"
+        },
+        "darkness": {
+          "value": "Oscuridad"
+        },
+        "necromancy": {
+          "value": "Nigromancia"
+        },
+        "light": {
+          "value": "Luz"
+        },
+        "destruction": {
+          "value": "Destrucción"
+        },
+        "air": {
+          "value": "Aire"
+        },
+        "fire": {
+          "value": "Fuego"
+        },
+        "illusion": {
+          "value": "Ilusión"
+        }
+      },
+      "total": {
+        "value": 0
+      },
+      "used": {
+        "value": 0
+      }
+    },
+    "summoning": {
+      "summon": {
+        "base": {
+          "value": "Convocar_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "banish": {
+        "base": {
+          "value": "Desconvocar_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "bind": {
+        "base": {
+          "value": "Atar_final"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "control": {
+        "base": {
+          "value": "Controlar_final"
+        },
+        "final": {
+          "value": 0
+        }
+      }
+    },
+    "spells": [],
+    "spellMaintenances": [],
+    "selectedSpells": [],
+    "summons": [],
+    "metamagics": []
+  },
+
+  "domine": {
+    "kiSkills": [],
+    "nemesisSkills": [],
+    "arsMagnus": [],
+    "martialArts": [],
+    "creatures": [],
+    "specialSkills": [],
+    "techniques": [],
+    "seals": {
+      "minor": {
+        "earth": {
+          "isActive": false
+        },
+        "metal": {
+          "isActive": false
+        },
+        "wind": {
+          "isActive": false
+        },
+        "water": {
+          "isActive": false
+        },
+        "wood": {
+          "isActive": false
+        }
+      },
+      "major": {
+        "earth": {
+          "isActive": false
+        },
+        "metal": {
+          "isActive": false
+        },
+        "wind": {
+          "isActive": false
+        },
+        "water": {
+          "isActive": false
+        },
+        "wood": {
+          "isActive": false
+        }
+      }
+    },
+    "martialKnowledge": {
+      "used": {
+        "value": 0
+      },
+      "max": {
+        "value": 0
+      }
+    },
+    "kiAccumulation": {
+      "strength": {
+        "accumulated": {
+          "value": 0
+        },
+        "base": {
+          "value": "$D18"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "agility": {
+        "accumulated": {
+          "value": 0
+        },
+        "base": {
+          "value": "$D12"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "dexterity": {
+        "accumulated": {
+          "value": 0
+        },
+        "base": {
+          "value": "$D16"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "constitution": {
+        "accumulated": {
+          "value": 0
+        },
+        "base": {
+          "value": "$D14"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "willPower": {
+        "accumulated": {
+          "value": 0
+        },
+        "base": {
+          "value": "$D22"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "power": {
+        "accumulated": {
+          "value": 0
+        },
+        "base": {
+          "value": "$D20"
+        },
+        "final": {
+          "value": 0
+        }
+      },
+      "generic": {
+        "value": 0,
+        "max": 0
+      }
+    }
+  },
+
+  "psychic": {
+    "psychicPotential": {
+      "base": {
+        "value": 0
+      },
+      "final": {
+        "value": 0
+      }
+    },
+    "psychicProjection": {
+      "base": {
+        "value": 0
+      },
+      "final": {
+        "value": 0
+      }
+    },
+    "psychicPoints": {
+      "value": 0,
+      "max": 0
+    },
+    "psychicPowers": [],
+    "psychicDisciplines": [],
+    "mentalPatterns": [],
+    "innatePsychicPower": {
+      "amount": {
+        "value": 0
+      }
+    },
+    "innatePsychicPowers": []
+  }
+}
