@@ -143,27 +143,27 @@
     },
     "secondaries": {
       "lifePoints": {
-        "value": 0,
-        "max": 0
+        "value": "$N11",
+        "max": "$N11"
       },
       "initiative": {
         "base": {
-          "value": 0
+          "value": "Turno_Nat_final"
         },
         "final": {
           "value": 0
         }
       },
       "fatigue": {
-        "value": 0,
-        "max": 0
+        "value": "$N16",
+        "max": "$N16"
       },
       "movementType": {
         "mod": {
           "value": 0
         },
         "final": {
-          "value": 0
+          "value": "TipodeMovimiento"
         }
       },
       "movement": {
@@ -177,7 +177,7 @@
       "resistances": {
         "physical": {
           "base": {
-            "value": 0
+            "value": "$J58"
           },
           "final": {
             "value": 0
@@ -185,7 +185,7 @@
         },
         "disease": {
           "base": {
-            "value": 0
+            "value": "$J59"
           },
           "final": {
             "value": 0
@@ -193,7 +193,7 @@
         },
         "poison": {
           "base": {
-            "value": 0
+            "value": "$J60"
           },
           "final": {
             "value": 0
@@ -201,7 +201,7 @@
         },
         "magic": {
           "base": {
-            "value": 0
+            "value": "$J61"
           },
           "final": {
             "value": 0
@@ -209,7 +209,7 @@
         },
         "psychic": {
           "base": {
-            "value": 0
+            "value": "$J62"
           },
           "final": {
             "value": 0
@@ -648,7 +648,7 @@
   "combat": {
     "attack": {
       "base": {
-        "value": 0
+        "value": "HA_final"
       },
       "final": {
         "value": 0
@@ -656,7 +656,7 @@
     },
     "block": {
       "base": {
-        "value": 0
+        "value": "HP_final"
       },
       "final": {
         "value": 0
@@ -664,14 +664,14 @@
     },
     "dodge": {
       "base": {
-        "value": 0
+        "value": "HE_final"
       },
       "final": {
         "value": 0
       }
     },
     "wearArmor": {
-      "value": 0
+      "value": "LlevarArmadura_final"
     },
     "totalArmor": {
       "at": {
@@ -709,7 +709,7 @@
     "act": {
       "main": {
         "base": {
-          "value": 0
+          "value": "ACT_final"
         },
         "final": {
           "value": 0
@@ -726,15 +726,15 @@
     },
     "zeon": {
       "accumulated": 0,
-      "value": 0,
-      "max": 0
+      "value": "Zeón_final",
+      "max": "Zeón_final"
     },
     "zeonRegeneration": {
       "base": {
-        "value": 0
+        "value": "Místicos$I12"
       },
       "final": {
-        "value": 0
+        "value": "Místicos$J12"
       }
     },
     "innateMagic": {
@@ -747,7 +747,7 @@
     },
     "magicProjection": {
       "base": {
-        "value": 0
+        "value": "ProyecciónMágica_final"
       },
       "final": {
         "value": 0
@@ -808,7 +808,7 @@
         }
       },
       "total": {
-        "value": 0
+        "value": "NiveldeMagia_final"
       },
       "used": {
         "value": 0
@@ -901,10 +901,10 @@
     },
     "martialKnowledge": {
       "used": {
-        "value": 0
+        "value": "Ki$E29"
       },
       "max": {
-        "value": 0
+        "value": "CM_final"
       }
     },
     "kiAccumulation": {
@@ -913,7 +913,7 @@
           "value": 0
         },
         "base": {
-          "value": "$D18"
+          "value": "Ki$D18"
         },
         "final": {
           "value": 0
@@ -924,7 +924,7 @@
           "value": 0
         },
         "base": {
-          "value": "$D12"
+          "value": "Ki$D12"
         },
         "final": {
           "value": 0
@@ -935,7 +935,7 @@
           "value": 0
         },
         "base": {
-          "value": "$D16"
+          "value": "Ki$D16"
         },
         "final": {
           "value": 0
@@ -946,7 +946,7 @@
           "value": 0
         },
         "base": {
-          "value": "$D14"
+          "value": "Ki$D14"
         },
         "final": {
           "value": 0
@@ -957,7 +957,7 @@
           "value": 0
         },
         "base": {
-          "value": "$D22"
+          "value": "Ki$D22"
         },
         "final": {
           "value": 0
@@ -968,15 +968,15 @@
           "value": 0
         },
         "base": {
-          "value": "$D20"
+          "value": "Ki$D20"
         },
         "final": {
           "value": 0
         }
       },
       "generic": {
-        "value": 0,
-        "max": 0
+        "value": "Ki$F24",
+        "max": "Ki$F24"
       }
     }
   },
@@ -984,7 +984,7 @@
   "psychic": {
     "psychicPotential": {
       "base": {
-        "value": 0
+        "value": "Psíquico$H11"
       },
       "final": {
         "value": 0
@@ -992,22 +992,22 @@
     },
     "psychicProjection": {
       "base": {
-        "value": 0
+        "value": "Proyecciónpsíquica_final"
       },
       "final": {
         "value": 0
       }
     },
     "psychicPoints": {
-      "value": 0,
-      "max": 0
+      "value": "Psíquico$I16",
+      "max": "Psíquico$I16"
     },
     "psychicPowers": [],
     "psychicDisciplines": [],
     "mentalPatterns": [],
     "innatePsychicPower": {
       "amount": {
-        "value": 0
+        "value": "Psíquico$M13"
       }
     },
     "innatePsychicPowers": []
